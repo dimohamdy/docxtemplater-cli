@@ -1,7 +1,7 @@
-docxtemplater-cli
+coverletter-cli
 =================
 
-This repository contains code for the docxtemplater-cli
+This repository contains code for the coverletter-cli
 
 Installation
 ------------
@@ -9,14 +9,14 @@ Installation
 To install the cli, run :
 
 ```
-npm install -g docxtemplater-cli
+npm install -g coverletter-cli
 ```
 
 Run
 ---
 
-To run docxtemplater, run :
+To run coverletter, run :
 
 ```
-docxtemplater input.docx data.json output.docx
+coverletter input.docx companyname output.docx
 ```

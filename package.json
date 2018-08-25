@@ -1,6 +1,6 @@
 {
-  "name": "docxtemplater-cli",
-  "version": "3.5.2",
+  "name": "coverletter-cli",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "docxtemplater": "./cli.js"
   },
   "keywords": [],
-  "author": "Edgar Hipp",
+  "author": "Dimo Hamdy",
   "license": "MIT",
   "dependencies": {
     "bluerider": "^1.0.0",

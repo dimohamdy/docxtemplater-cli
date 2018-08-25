@@ -9,7 +9,7 @@ const path = require("path");
 const expressions = require("bluerider");
 
 function showHelp() {
-	console.log("Usage: docxtemplater input.docx data.json output.docx");
+	console.log("Usage: coverletter-cli in_coverletter.docx company_name output_coverletter.docx");
 	process.exit(1);
 }
 
@@ -31,7 +31,9 @@ if (args.length !== 3) {
 	showHelp();
 }
 const input = fs.readFileSync(args[0], "binary");
-const data = JSON.parse(fs.readFileSync(args[1], "utf-8"));
+
+const comapnyName = args[1]
+const data = {"comapny_name":comapnyName}
 const output = args[2];
 
 const zip = new JSZip(input);
